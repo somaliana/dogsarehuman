@@ -1,0 +1,275 @@
+
+* {
+    margin: 0;
+    
+}
+header {
+    position: fixed;
+    top: 0;
+    
+    width: 100vw;
+    height: 10vh;
+    background-color: black;  
+    display: flex;
+    justify-content: space-between;
+    font-family: "sun";
+}
+.siteName {
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: 3px solid rgb(138, 113, 113);
+    animation: colorChange 5s infinite;
+    background-color: white;
+}
+
+.LogoPart {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-left: 5%;
+    width: 10%;
+    height: 90%;
+}
+
+
+.MenuPart {
+    display: flex;
+    color: pink;
+    width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+main {
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    background: url("sakura.jpg");
+    background-repeat: no-repeat;
+    background-size: 150%, 150%;
+    animation: Corn 15s ease-in infinite;
+    
+}
+
+.mainBox {
+    height: 80%;
+    width: 90%;
+    background-color: rgba(20, 11, 11,0.8);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.TextPart {
+    padding: 5%;
+    height: 100%;
+    width: 40%;
+}
+.head1 {
+    color: white;
+    font-family: "iyazoi";
+    font-size: 1.2em;
+    text-shadow: 0 0 0.5em rgb(255,255,255);
+}
+.subtext {
+    margin-top: 5%;
+    color: white;
+    font-size: 1em;
+    font-family: "kawashiro";
+}
+.joinUs {
+    margin-top: 5%;
+    
+
+}
+.join {
+    color: white;
+    border: 0.2em solid white;
+    border-radius: 2em;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0.3em;
+    background-image: linear-gradient(rgba(250,0,0,0.8), rgba(107,39,0,0.8));
+    font-family:"kawashiro";
+}
+.imagePart {
+    padding: 5%;
+    height: 100%;
+    width: 40%;
+}
+.sak {
+    width: 50%;
+    height: 50%;
+    margin-left: 30%;
+}
+.subby {
+    margin-left: 30%;
+    color: white;
+    font-size: 0.8em;
+    font-family: "kawashiro";
+}
+.secondLayer {
+
+    width: 100vw;
+    padding-top: 2%;
+    height: 50vh;
+    background-image: linear-gradient(rgb(105, 14, 14), rgb(56, 9, 9));
+}
+.texty {
+    color: white;
+    font-size:1.2em;
+    font-family: "sun";
+    text-align: center;
+    
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.box {
+    height: 20%;
+    width: 20%;
+    margin: 5%;
+    
+}
+.box > img {
+    width: 100%;
+    height:100%;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+.thirdLayer {
+    background-image:url("sakq1.webp");
+    width: 100vw;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texx {
+    color: rgb(255, 253, 253);
+    font-family: "oak";
+    font-size: 3em;
+
+}
+.fourthLayer {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgb(105, 14, 14), rgb(56, 9, 9));
+}
+.blackBox {
+    background-color: rgb(32,32,32);
+    height: 80%;
+    width: 80%;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.contackText {
+    font-size: 1.2em;
+    font-family: "kawashiro";
+
+}
+.contactUs {
+    width: 20%;
+    height: 20%;
+    color: white;
+    font-family: "kawashiro";
+    border: 3px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-image: linear-gradient(rgba(0,171,194,0.5), rgba(1,68,68,0.5));
+}
+.link1 {
+    text-decoration: none;
+    color: white;
+}
+.link1:after { 
+    content: "";
+    background-image: linear-gradient(to right, rgb(0,217,255),rgb(0,4,255));
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -2px;
+    transition: 0.3s;
+
+}
+.link1:hover:after {
+    width: 100%;
+}
+.link1:hover {
+    text-shadow: 0 0 5px rgb(59,210,230), 0 0 12px rgb(59,210,230),0 0 20px rgb(59,210,230);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family:"iyazoi";
+    src: url("IzayoiMonospaced.ttf");
+}
+@font-face {
+    font-family:"oak";
+    src: url("oak.ttf");
+}
+@font-face {
+    font-family: "sun";
+    src: url("sunny.otf");
+}
+@font-face {
+    font-family: "kawashiro";
+    src: url("kawashiro.ttf");
+}
+@keyframes colorChange { 
+    0% {
+        background-color: rgb(255, 109,109);
+    }
+    100% {
+        background-color: rgb(143, 0, 55);
+    }
+    
+}
+@keyframes Corn {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100%, 50%;}
+    100% {background-position: 0% 50%;}
+    
+}
