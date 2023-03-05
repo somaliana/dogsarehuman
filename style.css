@@ -108,6 +108,8 @@ main {
 .sak {
     width: 50%;
     height: 50%;
+    min-width: 100px;
+    min-height: 100px;
     margin-left: 30%;
 }
 .subby {
@@ -120,8 +122,12 @@ main {
 
     width: 100vw;
     padding-top: 2%;
-    height: 50vh;
+    height: auto;
     background-image: linear-gradient(rgb(105, 14, 14), rgb(56, 9, 9));
+}
+.box > p {
+    color: white;
+    font-family: "kawashiro";
 }
 .texty {
     color: white;
@@ -159,9 +165,11 @@ main {
     align-items: center;
 }
 .texx {
-    color: rgb(255, 253, 253);
+    color: rgb(10, 5, 5);
     font-family: "oak";
     font-size: 3em;
+    text-shadow:purple 1px 1px 1px;
+    font-weight: bold;
 
 }
 .fourthLayer {
